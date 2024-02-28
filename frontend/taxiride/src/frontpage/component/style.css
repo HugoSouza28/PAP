@@ -1,10 +1,13 @@
+
+/*NAVBAR*/
+
 .navbar {
     background-color: #2ecc71;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 10px 50px;
   }
   
   .navbar-left {
@@ -13,14 +16,14 @@
   }
   
   .logo {
-    width: 40px;
+    width: 100px;
     height: auto;
     margin-right: 10px;
   }
   
   .brand-text {
     color: white;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: bold;
   }
   
@@ -34,6 +37,7 @@
   .nav-item {
     display: inline-block;
     margin-left: 20px;
+    font-size: 2.2rem;
   }
   
   .nav-link {
@@ -49,6 +53,9 @@
   .nav-link:hover {
     background-color: #1b9b54;
   }
+
+  /*Footer*/
+
   .footer {
     background-color: #333;
     color: #fff;
@@ -57,7 +64,7 @@
     justify-content: center;
     align-items: center;
     position: fixed;
-    height: 3px; /* Ajuste a altura conforme necessário */
+    height: 12px;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -66,6 +73,5 @@
   
   .footer p {
     margin: 0;
-    font-size: 0.7rem;
+    font-size: 1.1rem;
   }
-  
