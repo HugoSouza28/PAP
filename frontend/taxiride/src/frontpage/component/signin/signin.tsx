@@ -1,8 +1,26 @@
+import { useEffect, useState } from 'react';
 import React from "react";
 import '../signin.css';
+import axios from 'axios';
 import { Link } from 'react-router-dom';
 
+
 const SigninForm = () => {
+    const [usernameValue, setUsernameValue] = useState('');
+    const [emailValue, setEmailValue] = useState('');
+    const [passwordValue, setPasswordValue] = useState('');
+    const [password2Value, setPassword2Value] = useState('');
+    useEffect(()=>{
+
+axios.get('http://localhost:3001/dados')
+  .then(response => {
+    console.log(response.data);
+  })
+  .catch(error => {
+    console.error('Erro ao buscar dados:', error);
+  });
+    })
+    
     return (
         <div className="container">
             <h2 className="form-signup-heading">Registar</h2>
