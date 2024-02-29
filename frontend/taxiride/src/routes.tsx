@@ -5,6 +5,7 @@ import Login from './frontpage/pages/login';
 import Signin from './frontpage/pages/signin';
 import Reserva from './frontpage/pages/reserva';
 import Reserva2 from './frontpage/pages/reserva2';
+import Reserva3 from './frontpage/pages/reserva3';
 
 export const Rota:React.FC = ()=>{
     return(
@@ -15,6 +16,7 @@ export const Rota:React.FC = ()=>{
             <Route path="/reserva" element={<Reserva/>} />
             <Route path="/reserva" element={<Reserva/>} />
             <Route path="/reserva-2" element={<Reserva2/>} />
+            <Route path="/reserva-3" element={<Reserva3/>} />
         </Routes>
     )
     

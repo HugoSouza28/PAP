@@ -3,7 +3,7 @@ const dbconn = require('../../db/db');
 const app = express();
 
 app.get('/usuarios', (req, res) => {
-    const sql = 'SELECT * FROM usuarios';
+    const sql = 'SELECT * FROM members';
     dbconn.query(sql, (err, result) => {
       if (err) {
         console.error('Erro ao buscar usuários:', err);

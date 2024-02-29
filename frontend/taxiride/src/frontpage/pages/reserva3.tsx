@@ -1,15 +1,15 @@
 import React from "react";
 import Navbar from "../component/navbar/navbar";
 import Footer from "../component/footer/footer";
-import Informarcao from "../component/info/info";
-const Frontpage = ()=>{
+import Local from "../component/reserva-3/reserva3";
+const Reserva3 = ()=>{
     return(
         <>
         <Navbar/>
-        <Informarcao/>
+        <Local/>
         <Footer/>
         </>
     )
 
 }
-export default Frontpage;
+export default Reserva3;

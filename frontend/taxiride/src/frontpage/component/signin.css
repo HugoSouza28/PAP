@@ -93,3 +93,15 @@ button:active {
     font-size: 22px;
 }
 
+.container-info {
+    width: 1000px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: left;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 8%;
+    font-size: 22px;
+}
